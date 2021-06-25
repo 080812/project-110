@@ -1,0 +1,131 @@
+<html>
+
+<head>
+  <title>Case Study</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <center>
+    <div class="col-xs-12 header_div">
+      <h2>
+        Image Identification App
+        <img src="logo.gif">
+      </h2>
+    </div>
+
+    <br><br>
+
+    <div class="col-sm-6 col-xs-12 main_div">
+      <label>Test Image-1 </label>
+      <div id="result-1">
+        <img src="https://ean-images.booztcdn.com/design-letters/1300x1700/g/dls20202501_cgrey_vgrey.jpg">
+        <label>Output on Microsoft Azure- </label><span id="ma1">Bottle</span>
+
+        <label>Output on Mobilenet Model- </label><span id="mnet1">Water Bottle</span>
+        <div id="accuracy1">
+         
+          <label id="labelresult">Mobilenet Model is more accurate </label>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-xs-12 main_div">
+        <label>Test Image-2 </label>
+        <div id="result-1">
+          <img src="https://5.imimg.com/data5/NU/YU/ET/SELLER-88355864/wooden-photo-frames-500x500.jpg">
+          <label>Output on Microsoft Azure- </label><span id="ma1"></span>
+  
+          <label>Output on Mobilenet Model- </label><span id="mnet1"></span>
+          <div id="accuracy1">
+           
+            <label id="labelresult"> </label>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-xs-12 main_div">
+          <label>Test Image-3 </label>
+          <div id="result-1">
+            <img src="https://5.imimg.com/data5/HR/YP/YD/SELLER-90058063/men-stylish-shoes-500x500.jpg">
+            <label>Output on Microsoft Azure- </label><span id="ma1"></span>
+    
+            <label>Output on Mobilenet Model- </label><span id="mnet1"></span>
+            <div id="accuracy1">
+             
+              <label id="labelresult"> </label>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-xs-12 main_div">
+            <label>Test Image-4 </label>
+            <div id="result-1">
+              <img src="https://images-na.ssl-images-amazon.com/images/I/61cTYhGH6CL._UY395_.jpg">
+              <label>Output on Microsoft Azure- </label><span id="ma1"></span>
+      
+              <label>Output on Mobilenet Model- </label><span id="mnet1"></span>
+              <div id="accuracy1">
+               
+                <label id="labelresult"> </label>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-xs-12 main_div">
+              <label>Test Image-5 </label>
+              <div id="result-1">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71Pzqic%2BArL._UL1500_.jpg">
+                <label>Output on Microsoft Azure- </label><span id="ma1"></span>
+        
+                <label>Output on Mobilenet Model- </label><span id="mnet1"></span>
+                <div id="accuracy1">
+                 
+                  <label id="labelresult"> </label>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-12 main_div">
+                <label>Test Image-6 </label>
+                <div id="result-1">
+                  <img src="https://staticimg.titan.co.in/Tanishq/Catalog/502997SUPABA32_1.jpg?impolicy=pqmed&imwidth=640">
+                  <label>Output on Microsoft Azure- </label><span id="ma1"></span>
+          
+                  <label>Output on Mobilenet Model- </label><span id="mnet1"></span>
+                  <div id="accuracy1">
+                   
+                    <label id="labelresult"> </label>
+                  </div>
+                  </div>
+                </div>
+
+
+
+      <div class=" col-xs-12 footer_div">
+        <h4 class="col-sm-6 col-xs-12">
+          <img src="blub.gif">
+          <span id="object_name"></span>
+        </h4>
+      </div>
+
+      <div class="copyrightfooter">
+        Developed By Taneisha
+      </div>
+  </center>
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>

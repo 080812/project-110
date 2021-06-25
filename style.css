@@ -1,0 +1,71 @@
+.header_div{
+background: white;
+color: red;
+font-family: 'Viaoda Libre', cursive;
+}
+
+.header_div img{
+    width: 100px;
+}
+
+.main_div{
+    background: pink;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid white;
+}
+
+.main_div label{
+    
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 0px;
+    
+}
+
+#result-1{
+    border: 3px solid white;
+    width: 500px;
+    height: 500px;
+    box-shadow: 5px 10px 18px grey;
+}
+
+img{
+    width: 300px;
+    height:300px;
+}
+
+
+
+.footer_div{
+    margin-bottom: 50px;
+
+}
+
+.footer_div h4{
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 10px 18px grey;
+}
+
+.footer_div img{
+    width: 70px;
+
+}
+
+.copyrightfooter{
+    position: fixed;
+    color: grey;
+    bottom: 0;
+    width: 100%;
+    background-color:white ;
+    line-height: 3;
+    text-align: center;
+}
+
+#labelresult{
+    background-color: rgb(107, 6, 107);
+    color: whitesmoke;
+    border-radius: 30px;
+}
